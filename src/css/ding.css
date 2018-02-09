@@ -1,0 +1,52 @@
+.infozhi{
+	height: 10rem;
+    color: #00b38a;
+    font-size: 1.9rem;
+    text-align: center;
+    border-bottom: 1px solid #e8e8e8;
+    background: #eee;
+    line-height: 10rem;
+}  
+.bao {
+	height: 5rem;
+	border-bottom: 1px solid #ccc; 
+}
+.inputer{
+	display: inline-block;
+    margin-left: 23px;
+    font-size: 1.5rem;
+    width: 80%
+}
+.ok{
+    width: 60px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #c2cfcc;
+}
+.item{
+    height: 44px;
+    line-height: 44px;
+    color: #666;
+    font-size: 1.4rem;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 15px 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+.styles{
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    width: 80%;
+    margin: .25rem auto;
+    font-size: 1.25rem;
+    background: #f0f0f0;
+    border-radius:2rem; 
+}
+.dingback{
+    position: absolute;
+    top: 1rem;
+    left: .5rem;
+    z-index: 999;
+}

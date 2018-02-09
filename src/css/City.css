@@ -1,0 +1,26 @@
+.lists h3{
+	font-size: 1.25rem;
+	height: 30px;
+	line-height: 30px;
+	border-top:1px solid #ccc; 
+	text-align: left;
+	padding-left: 20px;
+}
+.lists li{
+	width: 100%;
+	display: flex;
+	border-top:1px solid #ccc; 
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.lists li b{
+	width: 33%;
+	text-align: center;
+	font-weight: normal;
+	height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+    min-width: 100px;
+}

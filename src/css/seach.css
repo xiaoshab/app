@@ -1,0 +1,52 @@
+
+.content{
+  border: 1px solid #cccccc;
+}
+.content span{
+    height: 45px;
+    line-height: 45px;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 88px;
+    border-right: 1px solid #e8e8e8;
+    display: inline-block;
+}
+.content input{
+	border: none;
+    padding: 10px 0;
+    height: 25px;
+    line-height: 25px;
+    color: #333333;
+    width: 50%;
+    margin: 0 0 0 5%;
+    font-size: 1.5rem;
+}
+.content button{
+	height: 45px;
+	width: 40px;
+    border: 0;
+    background: white;
+}
+.history{
+    height: 45px;
+    line-height: 45px;
+    font-size: 1.4rem;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 0 0 23px;
+    position: relative;
+}
+.position{
+    position: relative;
+}
+.right{
+  display: inline-block;
+    width: 4.6rem;
+    height: 3.25rem;
+    text-align: center;
+    margin-top: .25rem;
+    position: absolute;
+    right: 1.75rem;
+    top: 0;
+    font-weight: normal; 
+    line-height: 3.25rem;
+}

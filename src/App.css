@@ -1,0 +1,113 @@
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+a{
+  color:black;
+}
+.headers {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    background-color: #00b38a;
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 998;
+}
+.nav {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    border-top: 1px solid #e8e8e8;
+    background-color: #f6f6f6;
+    color: #c2cfcc;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+    font-size: 1.6rem
+}
+
+.nav .nav-item {
+    width: 34%;
+    height: 100%;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav.nav-item:active {
+    background-color: #f0f0f0
+}
+
+.nav.nav-item:hover {
+    color: #00b38a;
+    background-color: #e7f3f0
+}
+.list{
+  margin-bottom: 80px; 
+  text-align: center;
+}
+p{
+    font-size: 1.6rem;
+}
+.likes{
+  color:green!important;
+}
+.top{
+  margin-top: 2rem
+}
+.custom-info{
+  border-bottom: 1px solid #e8e8e8;
+    height: 43px;
+    line-height: 43px;
+    padding: 0 15px;
+    color: #555;
+    font-size: 1.4rem;
+    text-align: left;
+    position: relative;
+}
+ 
+.custom-info .go{
+    position: absolute;
+    right: 15px;
+    top: 0;
+    display: block;
+    float: right;
+    background-color: #f5f5f5;
+    padding: 0 20px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 6px;
+    color: #00b38a;
+    border-radius: 15px 
+}

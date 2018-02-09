@@ -1,0 +1,44 @@
+
+.container{
+	position: relative;
+}
+h2{
+	color: #333;
+    font-size: 1.51rem;
+    font-weight: 400;
+   	text-align: left;
+   	margin-left: 1.13rem;
+
+}
+input{
+	margin-top: 20px;
+}
+.form-control{
+	 width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: .27rem 0;
+    font-size: 1.45rem;
+    color: #ccc;
+    border: 0;
+    border-bottom: 1px solid #E8E9EB;
+    padding-left: 20px; 
+	
+}
+.btn-primary{
+	margin-top: 20px;
+	width: 80%;
+    height: 3.17rem;
+    border-radius: 3px;
+    background-color: #00b38a;
+    color: #fff;
+    font-size: 1.45rem;
+    border: 0;
+    margin-left: 3rem;
+}
+  
+  .spans{
+  	position: absolute;
+  	top: 0;
+  	right: 20px;
+  }
