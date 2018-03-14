@@ -21,7 +21,7 @@ class Login extends Component{
 			    <input type="text" value={this.state.userId} 
 								    onChange={(e)=>{this.handleUserId(e)}} 
 								    className="form-control" id="exampleInputEmail1" 
-								     placeholder="请输入已验证的手机号或邮箱" />
+								    placeholder="请输入已验证的手机号或邮箱" />
 			  </div>
 			  <div className="form-group">
 			    <input type="password" value={this.state.pwd} 

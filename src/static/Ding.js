@@ -7,7 +7,7 @@ import React, { Component } from 'react';
  	constructor(){
  		super();
  			this.state={
- 				show:'block',
+ 				show:'block', 
  				hide:'none',
  				cityhide:'none',
  				cityshow:'none',
@@ -35,7 +35,6 @@ import React, { Component } from 'react';
  	componentWillMount(){
  		var _this = this
 		axios.post('/api/city').then(function(res){
-			console.log(res)
 			_this.setState({
    	  			city:res.data.city
    	  		})
